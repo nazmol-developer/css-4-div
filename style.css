@@ -1,0 +1,175 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+/* header section */
+header{
+	width:100%;
+	height:130px;;
+}
+.header-contant{
+	width:100%;
+	height:130px;
+	background-color: rgb(16, 79, 85, 1);
+	display: inline-block;
+}
+.logo{
+	width:150px;
+	height:150px;
+	float:left;
+
+}
+.logo img{
+	width:76%;
+	margin:10px;
+	border-radius: 30px 10px 30px 10px;
+}
+.header-menu{
+	width:50%;
+	height: 100px;
+	float:right;
+}
+.header-menu ul{
+	list-style: none;
+	margin: 35px 0px;
+	margin-left:30%;
+}
+.header-menu ul li{
+	float:left;
+	color: white;
+	margin: 10px;
+	font-size:24px;
+}
+
+
+/* banner section */
+.banner{
+	width:100%;
+	height:600px;
+	background-image:url(images/bg33.PNG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container{
+	width:80%;
+	margin: 0 auto;
+}
+.banner-text{
+	width: 30%;
+	display: inline-block;
+    margin-top: 13%;
+    margin-left: 60px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, .7 );
+    padding: 59px;
+
+}
+.banner-text h1{
+	color:white;
+	font-size:50px;
+}
+.banner-text p{
+	color:white;
+	margin-top: 9%;
+}
+.btn{
+	background-color: rgb(50, 116, 109);
+    border: none;
+    padding: 10px 37px;
+    margin-top: 5%;
+    border-radius: 8px;
+}
+.btn a{
+	text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+/* about us section */
+
+
+.about-us{
+	width: 100%;
+    height: 400px;
+    display: inline-block;
+    
+}
+.heading{
+	text-align: center;
+	font-size: 30px;
+margin:20px auto;}
+
+.about-text{
+	width:40%;
+	height: 200px;
+	float:left;
+	margin-top:5%;
+	margin-left:50px;
+	display: inline-block;
+}
+.about-text h2{ display: inline-block;
+	margin:30px;
+
+}
+.about-text p{
+
+}
+
+.about-text img{ width: 600px;
+    height: 300px;
+    float:left;}
+
+.btn={ 
+ }
+
+.center{
+	text-align: center;
+}
+
+
+/*variation section*/
+
+.contact{ display: inline-block;
+padding: 50px 0; }
+
+.heading1{ text-align: center;
+font-size: 30px;
+}
+.variation{ width:40%;
+	height: 200px;
+	float:left;
+	margin-top:5%;
+	margin-left:50px;
+	display: inline-block; }
+
+.mep{ display: inline-block; }
+
+.mep1{ display: inline-block;
+margin:30px 50px; }
+
+.mep1 img{ width:500px;
+height:300px;
+float: right;
+display: inline-block;
+margin:10px 50px; }
+
+
+/*follow section*/
+
+.follow{ margin-top: 10px; }
+
+.follow1{  }
+
+.follow2{ display: inline-block;
+float: left;
+margin:50px 50px; }
+
+.follow3{display: inline-block;
+	width:800px;
+float: right;
+margin:50px 50px; }
